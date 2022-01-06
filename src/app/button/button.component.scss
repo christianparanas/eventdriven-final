@@ -1,0 +1,41 @@
+
+
+.button {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  border-radius: 8px;
+  box-shadow: 0 4px 4px 0 RGB(43 80 237 / 20%);
+  font-size: 20px;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+  border: 2px solid #e3e3e3;
+
+  &:hover {
+    background-color: #fff;
+    border-color: teal;
+    color: #000;
+  }
+}
+
+.equalbtn {
+  background-color: teal;
+  color: #e3e3e3;
+
+  &:hover {
+    background-color: rgb(6, 100, 100);
+    color: #fff;
+  }
+}
+
+.clearBtn {
+  color: #fff;
+  background: rgb(156, 12, 12);
+
+  &:hover {
+    background-color: red;
+    color: #fff;
+  }
+}

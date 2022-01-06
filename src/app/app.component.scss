@@ -1,0 +1,50 @@
+.main_container {
+  .container {
+    max-width: 400px;
+    margin: 100px auto;
+    background: #fafafa;
+    color: #fff;
+    padding: 20px;
+
+    .input_container {
+      width: 100%;
+      padding: 0 0 20px 0;
+
+      input {
+        width: 100%;
+        outline: 0;
+        border: 0;
+        box-shadow: 0 4px 4px 0 RGB(43 80 237 / 20%);
+        border-radius: 8px;
+        padding: 15px;
+        text-align: end;
+        font-size: 20px;
+        appearance: none;
+
+        &,
+        &::-webkit-inner-spin-button,
+        &::-webkit-outer-spin-button {
+          -webkit-appearance: none;
+          -moz-appearance: textfield;
+          appearance: none;
+
+          &:hover,
+          &:focus {
+            -moz-appearance: number-input;
+          }
+        }
+      }
+    }
+
+    .btns_container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+
+    
+      .clearBtn {
+        grid-column: 1 / span 3;
+      }
+    }
+  }
+}

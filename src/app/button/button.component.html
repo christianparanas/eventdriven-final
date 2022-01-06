@@ -1,0 +1,7 @@
+<div
+  class="button"
+  [ngClass]="{ equalbtn: btnData === '=', clearBtn: btnData === 'clear'}"
+  (click)="pressKey(btnData)"
+>
+  {{ btnData }}
+</div>
